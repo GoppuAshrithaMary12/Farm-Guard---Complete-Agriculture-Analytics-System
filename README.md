@@ -16,26 +16,43 @@ http://localhost:5000
 
 
 Real Authentication (SQLite Database)
+
 Passwords hashed using Werkzeug PBKDF2-SHA256
+
 User data stored in instance/farmguard.db
+
 Session management using Flask
+
 Registration creates real database accounts
+
 Last login tracking
+
 Prediction history stored per user
+
 📍 Real-Time GPS Location
 Browser Geolocation API for coordinates
+
 OpenStreetMap Nominatim for reverse geocoding
+
 Location stored in database for each user
+
 Leaflet.js interactive maps
+
 Live coordinates shown in UI
+
 Status indicators:
 Orange = Detecting
 Green = Active
 Red = Error
 
 Security Features
+
 Passwords hashed (PBKDF2-SHA256)
+
 Protected routes using @login_required
+
 Session-based authentication
+
 SQL injection prevention via ORM
+
 File upload size limited to 16MB
