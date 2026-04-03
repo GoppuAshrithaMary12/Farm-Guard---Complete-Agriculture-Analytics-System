@@ -13,6 +13,8 @@ http://localhost:5000
 | Demo Farmer  | [demo@farmguard.com](mailto:demo@farmguard.com)       | demo123     |
 | Rajesh Kumar | [farmer1@farmguard.com](mailto:farmer1@farmguard.com) | password123 |
 | Priya Sharma | [priya@farmguard.com](mailto:priya@farmguard.com)     | priya123    |
+
+
 Real Authentication (SQLite Database)
 Passwords hashed using Werkzeug PBKDF2-SHA256
 User data stored in instance/farmguard.db
