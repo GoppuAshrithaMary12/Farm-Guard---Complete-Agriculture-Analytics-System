@@ -32,6 +32,7 @@ Status indicators:
 Orange = Detecting
 Green = Active
 Red = Error
+
 Security Features
 Passwords hashed (PBKDF2-SHA256)
 Protected routes using @login_required
